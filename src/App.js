@@ -72,7 +72,7 @@ const placesDB = {
   none: [
     {
       name: "",
-      rating: "5/"
+      rating: ""
     }
   ]
 };
