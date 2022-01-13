@@ -77,7 +77,7 @@ const placesDB = {
   ],
 };
 
-export default function App() {
+export default () => {
   const [selectPlace, setPlace] = useState('none');
   function placeClickHandler(place) {
     setPlace(place);
@@ -130,4 +130,4 @@ export default function App() {
       </div>
     </div>
   );
-}
+};
